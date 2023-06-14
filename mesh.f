@@ -36,6 +36,8 @@ c
         z(k)=z0+hdz*dble(k)
       enddo
 
+c staggered MAC grid
+
       xc(0)=x(-2)
       do i=0,nx
         xc(i+1)=x(2*i)
